@@ -4,13 +4,19 @@
 
 我喜欢把学习、研究和写作中反复出现的问题，整理成简单、透明、真正能用的小工具。目前主要关注中文学术写作、提示词工程、Codex Skills 与本地优先的个人效率工具。
 
-## Featured project
+## Featured projects
 
 ### [Focus Ledger · 专注账本](https://github.com/JosephSun1854/focus-ledger)
 
 一个完全由使用者定义内容与节奏的专注计时器。支持自定义分类、任务、计时环节和目标时长；无需注册，数据只保存在浏览器本机。
 
 **[Open the app](https://josephsun1854.github.io/focus-ledger/)** · HTML / CSS / JavaScript
+
+### [Codex Quota Watch · 额度续接助手](https://github.com/JosephSun1854/codex-quota-watch)
+
+给定任务名称和额度重置时间，每 5 分钟检查一次本地任务，保存续接材料，并在额度恢复后继续因额度失败的工作。支持随时暂停；个人配置与任务内容留在本机。
+
+**[View source & guide](https://github.com/JosephSun1854/codex-quota-watch#readme)** · PowerShell 7 · Windows · Experimental · MIT
 
 ## Small projects worth building next
 
