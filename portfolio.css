@@ -1,4 +1,85 @@
 /* Original editorial layout for the Law × AI research workspace. */
+.experiment-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+.experiment-card {
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 22px;
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+}
+.experiment-mark {
+  background: var(--experiment-soft);
+  color: var(--experiment-accent);
+  border-radius: 14px;
+  padding: 20px;
+  font:
+    italic 2rem Georgia,
+    serif;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.experiment-mark span {
+  font-style: normal;
+  font-size: 2.2rem;
+}
+.experiment-kind {
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: var(--experiment-accent);
+  margin-bottom: 10px;
+}
+.experiment-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 12px;
+}
+.experiment-card > p:not(.experiment-kind) {
+  font-size: 0.79rem;
+  line-height: 1.85;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+.experiment-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: auto;
+  font-size: 0.73rem;
+}
+.experiment-links a:first-child {
+  color: var(--experiment-accent);
+  font-weight: 600;
+}
+.experiment-boundary {
+  font-size: 0.77rem;
+  line-height: 1.9;
+  color: var(--muted);
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+@media (max-width: 1000px) {
+  .experiment-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 580px) {
+  .experiment-grid {
+    grid-template-columns: 1fr;
+  }
+  .experiment-card {
+    padding: 22px;
+  }
+  .experiment-card h3 {
+    font-size: 1.1rem;
+  }
+}
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 24px;

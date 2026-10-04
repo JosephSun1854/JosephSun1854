@@ -5,6 +5,30 @@
       skip: "Skip to the workspace",
       navigation: "Main navigation",
       navTools: "Tools",
+      navExperiments: "Interactive studio",
+      experimentsEyebrow: "02 / INTERACTIVE STUDIO",
+      experimentsTitle: "A little curiosity. A clearer next step.",
+      experimentsIntro:
+        "Four free, local experiences for exploring AI collaboration, career interests, governance choices and working life. Bring a question; leave with a shareable snapshot.",
+      workstyleKind: "YOUR AI COLLABORATION STYLE",
+      workstyleTitle: "AI Workstyle",
+      workstyleDescription:
+        "Twenty original situations. Four collaboration axes. Explore how you prompt, check, iterate and set boundaries.",
+      careerKind: "INTERESTS TO EXPLORE",
+      careerTitle: "Career Compass",
+      careerDescription:
+        "Map six kinds of interests through original activities. Discover career families to investigate and a small experiment to try.",
+      juryKind: "AI DECISIONS, HUMAN CHOICES",
+      juryTitle: "Algorithm Jury",
+      juryDescription:
+        "Step into fictional AI dilemmas. Choose a response, examine the tradeoff, and explore the governance priorities behind your decisions.",
+      offerKind: "YOUR NEXT CHAPTER",
+      offerTitle: "Offer Lab",
+      offerDescription:
+        "Compare income, time, growth, autonomy and meaning. Change your priorities and inspect every contribution to the ranking.",
+      tryExperience: "Try it ↗",
+      experimentsBoundary:
+        "Original, transparent explorations—not validated personality diagnoses, hiring predictions, or legal verdicts. No model calls or answer uploads. PNG cards are for voluntary sharing.",
       navInterests: "Research interests",
       navMethod: "Method",
       heroEyebrow: "OPEN RESEARCH WORKSPACE / SOCIAL LAW × AI GOVERNANCE",
@@ -59,7 +83,7 @@
       source: "Source ↗",
       suiteBoundary:
         "These tools organize and check research materials. Source authority, legal effect, and the strength of an argument remain matters for reading and human judgment.",
-      interestsEyebrow: "02 / QUESTIONS TO PURSUE",
+      interestsEyebrow: "03 / QUESTIONS TO PURSUE",
       interestsTitle: "Social law meets AI governance.",
       interestsIntro:
         "Open research interests that guide the tools and a developing research agenda.",
@@ -78,7 +102,7 @@
       agendaNote:
         "This is a draft agenda: research questions and proposed designs, with findings to be established through future work.",
       agendaLink: "Read the research agenda ↗",
-      methodEyebrow: "03 / HOW THE WORK IS BUILT",
+      methodEyebrow: "04 / HOW THE WORK IS BUILT",
       methodTitle: "Make the method inspectable.",
       methodIntro:
         "A useful research tool should expose its sources, its rules, and its failure cases.",
@@ -99,6 +123,30 @@
       skip: "跳至研究工作区",
       navigation: "主导航",
       navTools: "研究工具",
+      navExperiments: "互动实验室",
+      experimentsEyebrow: "02 / 互动实验室",
+      experimentsTitle: "从一点好奇，走向清楚的下一步。",
+      experimentsIntro:
+        "四个免费、本地使用的互动体验，探索 AI 协作、职业兴趣、治理取舍与工作选择。带着问题来，带着一张可分享的快照离开。",
+      workstyleKind: "你与 AI 的协作方式",
+      workstyleTitle: "AI 协作风格测试",
+      workstyleDescription:
+        "二十个原创情境、四条协作轴，探索你怎样提问、核验、迭代和设置边界。",
+      careerKind: "值得进一步探索的兴趣",
+      careerTitle: "职业兴趣罗盘",
+      careerDescription:
+        "通过原创活动描绘六类兴趣，找到值得调查的职业家族与本周可以尝试的小实验。",
+      juryKind: "AI 决策，人类的选择",
+      juryTitle: "AI 决策陪审团",
+      juryDescription:
+        "走进虚构的 AI 决策困境，选择应对方式，看看背后的理由、代价与治理优先级。",
+      offerKind: "下一段旅程，你来选择",
+      offerTitle: "Offer 选择实验室",
+      offerDescription:
+        "把收入、时间、成长、自主性和意义放在一起比较。亲手改变偏好，看清每项评分的贡献。",
+      tryExperience: "开始体验 ↗",
+      experimentsBoundary:
+        "原创、可解释的探索体验，不作人格诊断、招聘预测或法律裁判；不调用模型，不上传答案。结果卡由使用者自愿分享。",
       navInterests: "研究兴趣",
       navMethod: "方法说明",
       heroEyebrow: "开放研究工作区 / 社会法 × 人工智能治理",
@@ -152,7 +200,7 @@
       source: "源代码 ↗",
       suiteBoundary:
         "工具辅助组织和检查研究材料。来源权威、法律效力与论证支持程度，仍须通过阅读和人工判断确立。",
-      interestsEyebrow: "02 / 有待推进的研究问题",
+      interestsEyebrow: "03 / 有待推进的研究问题",
       interestsTitle: "在社会法与 AI 治理之间。",
       interestsIntro: "以开放的研究兴趣指引工具建设，逐步完善研究议程。",
       workersTitle: "劳动者与算法管理",
@@ -170,7 +218,7 @@
       agendaNote:
         "当前议程为草案，列示研究问题与拟议设计；研究结论须在后续工作中建立。",
       agendaLink: "阅读研究议程 ↗",
-      methodEyebrow: "03 / 怎样开展工作",
+      methodEyebrow: "04 / 怎样开展工作",
       methodTitle: "让研究方法可以检查。",
       methodIntro: "实用的研究工具应当展示来源、规则与失败情形。",
       methodLink: "阅读方法说明 ↗",
