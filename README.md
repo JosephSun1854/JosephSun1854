@@ -1,39 +1,34 @@
-# Hi, I'm Joseph Sun 👋
+<p align="center"><img src="assets/law-ai.svg" alt="Law × AI — Social law · LLM and AI regulation" width="100%"></p>
 
-> A bookworm turning careful workflows into small, useful tools.
+<p align="center"><a href="https://josephsun1854.github.io/JosephSun1854/">Research workspace / 研究工作台</a> · <a href="#research-tools--研究工具">Projects / 项目</a> · <a href="docs/research-agenda.md">Research interests / 研究兴趣</a> · <a href="docs/methods.md">Methods / 方法</a></p>
 
-我喜欢把学习、研究和写作中反复出现的问题，整理成简单、透明、真正能用的小工具。目前主要关注中文学术写作、提示词工程、Codex Skills 与本地优先的个人效率工具。
+My research interests sit at the intersection of **social law and the regulation of large language models and AI**: workers' rights, social protection, accountable decision-making, and traceable research evidence.
 
-## Featured projects
+关注**社会法学与大模型、人工智能法律规制**，尤其是劳动者权益、社会保障、算法决策问责，以及法学研究中的证据可追溯性。
 
-### [Focus Ledger · 专注账本](https://github.com/JosephSun1854/focus-ledger)
+### Research tools / 研究工具
 
-一个完全由使用者定义内容与节奏的专注计时器。支持自定义分类、任务、计时环节和目标时长；无需注册，数据只保存在浏览器本机。
+Small, inspectable tools for the path from a source to a research argument. Each repository includes working software, a method note, examples, and reproducible checks.
 
-**[Open the app](https://josephsun1854.github.io/focus-ledger/)** · HTML / CSS / JavaScript
+| Project | Research use | Try it |
+|:---|:---|:---|
+| **[01-citation-audit](https://github.com/JosephSun1854/01-citation-audit)** | Bibliography checks, optional DOI metadata, human review / 引注与来源核验 | [Open ↗](https://josephsun1854.github.io/01-citation-audit/) |
+| **[02-evidence-atlas](https://github.com/JosephSun1854/02-evidence-atlas)** | Chinese/English BM25 retrieval, source snapshots, claim–evidence notes / 原文检索与证据记录 | [Open ↗](https://josephsun1854.github.io/02-evidence-atlas/) |
+| **[03-research-roadmap](https://github.com/JosephSun1854/03-research-roadmap)** | Questions, dependencies, workload forecasts, experiment logs / 研究规划与实验记录 | [Open ↗](https://josephsun1854.github.io/03-research-roadmap/) |
+| **[04-literature-library](https://github.com/JosephSun1854/04-literature-library)** | Original papers, bibliographic slices, classified exports, review outlines / 论文原件、文献切片与综述提纲 | [Open ↗](https://josephsun1854.github.io/04-literature-library/) |
 
-### [Codex Quota Watch · 额度续接助手](https://github.com/JosephSun1854/codex-quota-watch)
+### Research approach / 研究方法
 
-给定任务名称和额度重置时间，每 5 分钟检查一次本地任务，保存续接材料，并在额度恢复后继续因额度失败的工作。支持随时暂停；个人配置与任务内容留在本机。
+**Sources before claims · Explicit human judgment · Reproducible methods · Local data by default**
 
-**[View source & guide](https://github.com/JosephSun1854/codex-quota-watch#readme)** · PowerShell 7 · Windows · Experimental · MIT
+These tools support legal and AI research through transparent rules, retrieval, and research records. They do not run an LLM, establish legal validity, or turn a matching citation into verified evidence. Citation metadata lookup is optional and sends only a DOI to Crossref.
 
-## Small projects worth building next
+以来源支撑论断，保留人工判断，公开方法与局限。工具使用透明规则与检索算法，不把生成内容或匹配结果直接视为法律结论；研究材料默认留在本机。
 
-- **Prompt Field Notes** — 把调试过的提示词整理成带版本、测试输入、预期输出和失败案例的实验笔记，而不是单纯堆放 prompt。
-- **Skill Garden** — 展示可复用 Codex Skills 的小型仓库；每个 skill 配一页用途说明、触发示例和最小可运行演示。
-- **Citation Doctor** — 面向中文学术写作的本地引注体检工具，只指出格式问题并给出修改建议，不上传文稿。
-- **Source Trail** — 为一篇文章建立“观点—证据—来源”关系图，帮助检查论证是否有出处、来源是否真正支持结论。
-- **Reading Compass** — 轻量阅读记录器：保存问题、观点、反例和行动，而不只记录页数与摘抄。
-- **Decision Log** — 用极简模板记录重要选择、当时依据和复盘日期，逐渐形成可以检验的个人判断档案。
+<details>
+<summary>Supporting utilities / 辅助工具</summary>
 
-## Principles
+- **[05-focus-ledger](https://github.com/JosephSun1854/05-focus-ledger)** — A customizable local focus timer / 可自定义的本地专注计时器。
+- **[06-codex-quota-watch](https://github.com/JosephSun1854/06-codex-quota-watch)** — A Windows checkpoint and resume helper / Windows 本地任务快照与续接助手。
 
-- Small enough to understand
-- Useful before impressive
-- Local-first when possible
-- Verifiable over mysterious
-
----
-
-More experiments are on the way.
+</details>

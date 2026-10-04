@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title desc">
+  <title id="title">Law × AI</title>
+  <desc id="desc">Social law, large language models and AI regulation. An open research workspace.</desc>
+  <rect width="1200" height="240" rx="16" fill="#f6f6ef"/>
+  <rect x="1" y="1" width="1198" height="238" rx="15" fill="none" stroke="#d8e1d7"/>
+  <path d="M56 56h31" stroke="#ba8243" stroke-width="3"/>
+  <text x="56" y="132" font-family="Georgia, 'Times New Roman', serif" font-size="65" fill="#183d3b">Law <tspan fill="#ba8243">×</tspan> AI</text>
+  <text x="58" y="179" font-family="Arial, sans-serif" font-size="18" letter-spacing="1.1" fill="#647471">Social law · LLM and AI regulation</text>
+  <path d="M628 58v126" stroke="#d8e1d7"/>
+  <text x="680" y="105" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#183d3b">Law, with evidence.</text>
+  <text x="680" y="145" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#0f625b">AI, with accountability.</text>
+  <text x="680" y="181" font-family="Arial, sans-serif" font-size="12" letter-spacing="1.8" fill="#647471">OPEN RESEARCH WORKSPACE</text>
+  <path d="M1111 52h33v33M1111 188h33v-33" fill="none" stroke="#ba8243" stroke-width="1.5"/>
+</svg>
